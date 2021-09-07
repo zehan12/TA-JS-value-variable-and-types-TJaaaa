@@ -43,3 +43,55 @@ let num2 = 32;
   - Log using console.log [numA - numB]
   - Log using console.log [numA * numB]
 */
+
+
+//alert language
+let language = "javascript";
+alert(`i am learning ${language}`)
+
+//alert number 
+alert(num1);
+alert(num2);
+
+//alert sum with value
+let sum = num1 + num2;
+alert(sum);
+
+//start with prompt
+let userName = prompt(`Enter your name`);
+let userProfession = prompt('Enter your profession');
+
+
+//confirm with age
+let isAdult = confirm('Are you adult');
+
+//alert message
+alert(`i am ${userName} a ${userProfession}`);
+
+//console message
+console.log(`i am ${userName} a ${userProfession}`);
+
+//alert message username age
+alert(`username : ${[userName]} \n Adult : ${[isAdult]} \n  Profession : ${[userProfession]} `);
+
+//console message
+console.log(`username : ${[userName]} \n Adult : ${[isAdult]} \n  Profession : ${[userProfession]}`);
+// 
+//addition using prompt
+let numA = prompt("enter number A");
+let numB = prompt("enter number B");
+
+let sum = Number(numA) + Number(numB)
+
+//alert sum of both num
+alert(`sum of numbers: ${sum}`);
+
+//alert sub
+alert(`subtraction of numbers ${numA - numB}`);
+
+//alert multiply
+alert(`multiplication of numbers ${numA * numB}`);
+
+//console two message
+console.log(`subtraction of numbers ${numA - numB}`);
+console.log(`multiplication of numbers ${numA * numB}`);
