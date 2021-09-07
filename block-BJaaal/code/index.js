@@ -34,3 +34,28 @@ const taxPercent = 10;
   `
   - Above message should be in two lines
 */
+
+
+//assign username as value
+const username = "zehan";
+
+//assign another element 
+let bio = `learning to code`
+
+//use alert with +
+alert(`I am ${username} my bio is ${bio}`);
+
+
+//alert firstname and lastname
+firstName = `I'am Arya strak`;
+lastName = `of Winterfell`;
+
+alert(`${firstName} ${lastName}`);
+
+
+// alert message
+alert(`total amount is ${amount}, 
+the tax amount is ${[(amount * taxPercent) / 100]}`);
+
+//alert message with double quote
+alert("total amount is" + " " + amount + "\n" + "the tax amount is" + " " + [amount *taxPercent] / 100 );
