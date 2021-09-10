@@ -14,7 +14,7 @@ Use `prompt` to take two numbers from user and store it in variable `numA` and `
 
 // 3. Complete the following code to make the output be 0 2 4 6 8 10?
 
-for (let j = 0; j <= 10; ____) console.log(j);
+// for (let j = 0; j <= 10; ____) console.log(j);
 
 // 4. Print the odd numbers from 9 to 1 (both inclusive) using a for loop.
 
@@ -36,3 +36,86 @@ Example:
 "hello", -21; // false
 
 */
+
+
+//task #1
+
+// 1
+let user 
+
+user = prompt("Enter the user");
+
+alert(user);
+
+
+//2
+let userName = user
+
+console.log(user + userName)
+
+//3 
+let age 
+let isLearning
+
+{age = 22, isLearning = "true"};
+
+alert(age + isLearning);
+
+//4
+user = "jhon";
+
+console.log(user + userName)
+
+//task #2
+
+let numA = prompt("Enter any number for A")
+
+let numB = prompt("Enter any number for B")
+
+let sum = Number(numA) + Number(numB);
+
+alert(`Sum of number A and number B is ${sum}`);
+
+
+// //task #3
+
+for (let j = 0; j <= 10; j = j + 1) {
+    counsole.log(count++);
+    if(j % 2 == 0)
+    console.log(j);
+}
+
+for (let j = 0; j <= 10; j += 2) {
+    console.log(j);
+}
+
+
+// //task #4
+
+for (let i = 9 ; i >= 1 ; i = i - 1){
+    if (i % 2 == 1)
+    console.log(i);
+}
+
+// //task #5
+
+let c = "";
+let i = 5 ;
+while ( i >= 0 ){
+    c = c + i; 
+    i = i -1;
+}
+console.log(c);
+
+
+//task #6
+
+let c = "";
+for (let i = 10 ; i >= 1 ; i = i - 1){
+    if (i % 2 == 2)
+    console.log(c);
+}
+
+
+//task #7
+
