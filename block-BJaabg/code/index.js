@@ -32,6 +32,12 @@ while( bank_balance > 0  ){
     bank_balance = bank_balance - ACCESSORY_PRICE;
 
  }   
+    
+    
+    
+    
+    
+    
 
 }
 
@@ -40,3 +46,21 @@ let tax_amount = amount * TAX_RATE;
 amount = amount + tax_amount;
 
 console.log(`$${amount}`);
+
+
+
+
+
+
+
+const SPENDING_THRESHOLD = 200;
+const TAX_RATE = 0.08;
+const PHONE_PRICE = 99.99;
+const ACCESSORY_PRICE = 9.99;
+   
+var bank_balance = 303.91;
+    var amount = 0;
+
+while(bank_balance>10){
+    
+    let str = prompt(choose the below option 
