@@ -118,4 +118,24 @@ for (let i = 10 ; i >= 1 ; i = i - 1){
 
 
 //task #7
+let num1 = prompt("enter num1");
+let num2 = prompt("enter num2");
 
+ if (typeof num1 == "number" && typeof num2 == "number" ){
+if (num1 == num2){
+    alert("true")
+} else if (typeof num1 == "number" && typeof num2 == "number"){    
+}if (num1 != num2 ){
+    alert("false")
+} else {
+    alert("valid vlaue")
+}
+}
+
+
+
+if (isNaN(num1) || isNaN(num2)){
+    alert('enter a valid value');
+} else {
+    alert(num1 === num2)
+}
